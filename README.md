@@ -1,10 +1,10 @@
 # PDF Reader - Diárias da Alesc
 Leitor específico para PDFs de diárias das Alesc
 
-#ShellScript pra baixar os PDFs:
+#ShellScript pra baixar os PDFs##
 https://github.com/escola-de-dados/alesc-baixador-diarias
 
-##Instalação e Execução do Leitor (Testado no Ubuntu & Mac)
+##Instalação e Execução do Leitor (Testado no Ubuntu & Mac)##
 - Para baixar o projeto, preparar ambiente, instalar dependencias e executar,
 siga as instruções abaixo e execute no terminal:
 
