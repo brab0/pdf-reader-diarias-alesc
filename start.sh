@@ -51,7 +51,7 @@ fi
 if [ $has_npm == true ]; then
   if [ $has_node == true ]; then
     if [ $has_dependencies == true ]; then
-      read -p "Quer converter os PDFs da pasta resources agora [s/n]? " answer < /dev/tty
+      read -p "Quer converter os PDFs agora [s/n]? " answer < /dev/tty
       if [[ "$answer" == [Ss]* ]]; then
         clear
         npm start
