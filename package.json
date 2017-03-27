@@ -1,0 +1,19 @@
+{
+  "name": "pdf-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reader.js",
+  "scripts": {
+    "start": "node reader.js --no-deprecation"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flatiron": "^0.4.3",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.1",
+    "json2xls": "^0.1.2",
+    "lodash": "^4.17.4",
+    "pdfreader": "^0.1.4"
+  }
+}
