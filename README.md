@@ -1,5 +1,5 @@
 # PDF Reader - Diárias da Alesc
-Leitor específico para PDFs de diárias das Alesc
+O PDF Reader é um leitor simples e específico para PDFs de diárias das Alesc criado com NodeJS. Basicamente, ele irá ler todos os arquivos PDF da pasta que for indicada e compilar todos em um arquivo do tipo .xlsx, que poderá ser encontrado na pasta Sheets do projeto e ser aberto no Excel ou no Google Sheets.
 
 ## ShellScript pra baixar os PDFs
 https://github.com/escola-de-dados/alesc-baixador-diarias
@@ -9,12 +9,12 @@ https://github.com/escola-de-dados/alesc-baixador-diarias
 siga as instruções abaixo e execute no terminal:
 
 ```html
-˜# git clone https://github.com/brab0/pdf-reader-diarias-alesc.git && cd pdf-reader-diarias-alesc.git
+˜# git clone https://github.com/brab0/pdf-reader-diarias-alesc.git && cd pdf-reader-diarias-alesc
 ˜# chmod +x start.sh && ./start.sh
 ```
 
 - Caso o primeiro passo já tenha sido feito e deseje executar novamente a
-aplicação, execute no terminal:
+aplicação, dentro da pasta do projeto, execute no terminal:
 ```html
 ˜# ./start.sh
 ```
@@ -32,3 +32,4 @@ se encontram(cd /path/to/pdfs/) e digite o comando abaixo:
 ```
 
 ...copie o caminho e cole no programa.
+
